@@ -1,0 +1,54 @@
+body{
+    color: #ffffe6;
+    background-color: #10100e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #401467;
+    border-radius: 50px;
+    width: 80%;
+    border: 18px solid #f68001;
+    margin: auto;
+}
+.meImg{
+    border-radius: 25%;
+    border: 18px solid #f68001;
+    width: 25%;
+    height: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: -14%;
+}
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 250%;
+    margin-left: -35%;
+    
+}
+.aboutMe{
+    border-radius: 22px;
+    font-size: 200%;
+    background-color: #f68001;
+    margin-bottom: 0% ;
+    margin-top: -4%;
+}
+.aboutMeFact1{
+    margin-bottom: 0% ;
+}
+.aboutMeFact2{
+    margin-bottom: 0% ;
+}   
+.aboutMeFact3{
+    margin-bottom: 0% ;
+}
+.aboutMeFact4{
+    margin-bottom: 0% ;
+}

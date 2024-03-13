@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 body{
     color: #ffffe6;
     background-color: #10100e;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.FirstTitleImg{
+    width: 100%;
 }
 .banner{
     display: flex;
@@ -51,4 +57,54 @@ body{
 }
 .aboutMeFact4{
     margin-bottom: 0% ;
+}
+.personalPresentation{
+    font-size: 3.5em;
+    font-family: "Madimi One", sans-serif;
+    color: #f68001;
+    background-color: #401467;
+    border-radius: 17px;
+}
+.personalText{
+    font-size: 2.18em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin-bottom: 2%;
+}
+.card {
+    width: 200px;
+    border: 2px solid #f68001;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contatos {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.redes {
+    width: 80px;
+    margin: 17px;
 }
